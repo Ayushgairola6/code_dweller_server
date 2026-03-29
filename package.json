@@ -1,0 +1,22 @@
+{
+  "name": "dweller_server",
+  "version": "1.0.0",
+  "description": "The server side service of agent dweller",
+  "main": "index.ts",
+  "type": "module",
+  "author": "Ayush gairola",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn install",
+    "start": "node index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "uuid": "^13.0.0"
+  }
+}
