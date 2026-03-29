@@ -6,6 +6,11 @@
   "type": "module",
   "author": "Ayush gairola",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only index.ts"
+  },
   "dependencies": {
     "@google/genai": "^1.46.0",
     "@types/cors": "^2.8.19",
